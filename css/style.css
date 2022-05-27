@@ -1965,7 +1965,7 @@ body::after {
   position: absolute;
   height: 110%;
   width: 100%;
-  top: 0;
+  top: 0px;
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1979,7 +1979,7 @@ body::after {
   display: none;
   opacity: 0;
   left: 10px;
-  top: 60%;
+  top: 72%;
   background: rgba(255, 255, 255, 0.72);
 }
 
@@ -3321,7 +3321,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 @media (max-width: 350px) {
   .slider-rooms__content {
-    top: 62%;
+    top: 69%;
   }
 }
 
@@ -3463,10 +3463,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .slider-rooms__image img {
     height: 112%;
-  }
-
-  .slider-rooms__content {
-    top: 70%;
   }
 }
 
